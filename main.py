@@ -6,7 +6,8 @@ choice = input("Choice: ")
 if choice == "1":
     tf = float(input("Enter deg F: "))
     tc = f2c(tf)
-    print(tf, " deg F = ", tc," deg C")
+    print(f"{tf} deg F = {tc} deg C")
+
 elif choice == "2":
     tc = float(input("Enter deg C: "))
     tf = c2f(tc)
