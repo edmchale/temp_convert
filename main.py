@@ -4,9 +4,9 @@ print("Choose 1 to convert F to C")
 print("Choose 2 to convert C to F")
 choice = input("Choice: ")
 if choice == "1":
-    tf = float(input("Enter deg F: "))
+    tf = float(input("Enter degs F: "))
     tc = f2c(tf)
-    print(f"{tf} deg F = {tc} deg C")
+    print(f"{tf} degs F = {tc} degs C")
 
 elif choice == "2":
     tc = float(input("Enter deg C: "))
