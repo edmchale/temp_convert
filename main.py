@@ -6,12 +6,12 @@ choice = input("Choice: ")
 if choice == "1":
     tf = float(input("Enter degs F: "))
     tc = f2c(tf)
-    print(f"{tf} degs F = {tc} deg C")
+    print(f"{tf} deg F = {tc} deg C")
 
 elif choice == "2":
     tc = float(input("Enter deg C: "))
     tf = c2f(tc)
-    print(tc, "deg C = ", tf, " deg F")
+    print(f"{tc} deg C = {tf} deg F")
 else:
     print("You did not pick 1 or 2")
 
